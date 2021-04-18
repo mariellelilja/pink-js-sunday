@@ -4,22 +4,22 @@
 function arrayInfo(arr) {
     console.log("Array info for " + JSON.stringify(arr) + ":");
 
-    const length = undefined;
+    const length = arr.length;
     console.log("Length of the array is " + length);
 
-    const firstElement = undefined;
+    const firstElement = arr[0];
     console.log("The first element is " + firstElement);
 
-    const thirdElement = undefined;
+    const thirdElement = arr[2];
     console.log("The third element is " + thirdElement);
 
-    const lastElement = undefined;
+    const lastElement = arr[arr.length -1]; //VRF -1?
     console.log("The last element is " + lastElement);
 
-    const index3 = undefined;
+    const index3 = arr.indexOf(3);
     console.log("Index of element 3 is " + index3);
 
-    const indexA = undefined;
+    const indexA = arr.indexOf("a");
     console.log("Index of element \"a\" is " + indexA);
 }
 
