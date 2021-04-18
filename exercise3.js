@@ -13,10 +13,14 @@ const person = undefined;
 console.log(`Here is the person object:\n ${JSON.stringify(person)}`);
 
 // Create an object smallWallet containing property coins, which is an array of numbers
-const smallWallet = undefined;
+const smallWallet = {coins: [50, 10, 10, 10, 90]};
 console.log(`Here is the small wallet:\n ${JSON.stringify(smallWallet)}`);
 
 // Create an object bigWallet containing a property banknotes which is an array of numbers 
 // and merge it with the smallWallet above, using the spread syntax
-const bigWallet = undefined;
+const bigWallet = {
+    //const banknotes: 
+    ...smallWallet
+
+};
 console.log(`Here is the big wallet:\n ${JSON.stringify(bigWallet)}`);
